@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cam - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP9718.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/cam.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop3\cam\work\cam.cpp"
+"C:\develop3\cam\work\camDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP9718.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/cam.pdb" /debug /machine:I386 /out:"Debug/cam.exe" /pdbtype:sept  .\Debug\cam.obj .\Debug\camDlg.obj .\Debug\label.obj .\Debug\mxpad.obj .\Debug\StdAfx.obj .\Debug\cam.res "
+<h3>Output Window</h3>
+Compiling...
+camDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+cam.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+cam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

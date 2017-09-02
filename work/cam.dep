@@ -1,0 +1,65 @@
+# Microsoft Developer Studio Generated Dependency File, included by cam.mak
+
+.\cam.cpp : \
+	"..\..\common\work2\label.h"\
+	".\cam.h"\
+	".\camdef.h"\
+	".\camDlg.h"\
+	
+
+.\cam.rc : \
+	".\cam.bmp"\
+	".\res\bg.bmp"\
+	".\res\cam.ico"\
+	".\res\cam.rc2"\
+	
+
+.\camDlg.cpp : \
+	"..\..\common\work2\label.h"\
+	".\cam.h"\
+	".\camdef.h"\
+	".\camDlg.h"\
+	".\memdc.h"\
+	".\mxpad.h"\
+	
+
+.\dsp.cpp : \
+	".\dsp.h"\
+	
+
+.\label.cpp : \
+	".\label.h"\
+	".\mxpad.h"\
+	
+
+.\memdc.cpp : \
+	".\memdc.h"\
+	".\mxpad.h"\
+	
+
+.\misc.cpp : \
+	".\misc.h"\
+	".\mxpad.h"\
+	
+
+..\..\common\work2\mxpad.cpp : \
+	"..\..\common\work2\mxpad.h"\
+	
+
+.\PlaySound.cpp : \
+	".\dsp.h"\
+	".\mxpad.h"\
+	".\PlaySound.h"\
+	".\soundpar.h"\
+	".\support.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+.\Support.cpp : \
+	".\mxpad.h"\
+	".\support.h"\
+	

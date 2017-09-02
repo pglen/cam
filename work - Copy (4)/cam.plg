@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/cam.res" /d "NDEBUG" /d "_AFXDLL" "C:\develop3\cam\work\cam.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPC6F6.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/cam.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\develop3\cam\work\cam.cpp"
+"C:\develop3\cam\work\camDlg.cpp"
+"C:\develop3\common\work2\label.cpp"
+"C:\develop3\common\work2\mxpad.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPC6F6.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSPC706.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/cam.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\develop3\cam\work\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSPC706.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/cam.pdb" /machine:I386 /out:"Release/cam.exe"  .\Release\cam.obj .\Release\camDlg.obj .\Release\label.obj .\Release\mxpad.obj .\Release\StdAfx.obj .\Release\cam.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cam.cpp
+camDlg.cpp
+label.cpp
+mxpad.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+cam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

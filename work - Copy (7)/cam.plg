@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cam - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/cam.res" /d "_DEBUG" /d "_AFXDLL" "C:\develop3\cam\work\cam.rc"" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP55B8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/cam.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop3\cam\work\cam.cpp"
+"C:\develop3\cam\work\camDlg.cpp"
+"C:\develop3\cam\work\dsp.cpp"
+"C:\develop3\cam\work\label.cpp"
+"C:\develop3\cam\work\misc.cpp"
+"C:\develop3\common\work2\mxpad.cpp"
+"C:\develop3\cam\work\PlaySound.cpp"
+"C:\develop3\cam\work\Support.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP55B8.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP55B9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/cam.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop3\cam\work\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP55B9.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP55BA.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/cam.pdb" /debug /machine:I386 /out:"Debug/cam.exe" /pdbtype:sept 
+.\Debug\cam.obj
+.\Debug\camDlg.obj
+.\Debug\dsp.obj
+.\Debug\label.obj
+.\Debug\misc.obj
+.\Debug\mxpad.obj
+.\Debug\PlaySound.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\cam.res
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP55BA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cam.cpp
+camDlg.cpp
+dsp.cpp
+label.cpp
+misc.cpp
+mxpad.cpp
+PlaySound.cpp
+Support.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+cam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
